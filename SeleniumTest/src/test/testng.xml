@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite1" >
+    <parameter name="UserName"  value="admin"/>
+    <parameter name="Password" value="password"/>
+<test name="Nopackage">
+    <classes>
+        <class name="seleniumTest.TestNg"/>
+        <class name="seleniumTest.TestNg2"></class>
+    </classes>
+</test>
+</suite>
